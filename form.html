@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Title</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <!-- Bootstrap CSS v5.2.1 -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+         crossorigin="anonymous"
+      />
+      <!-- Bootstrap JavaScript Libraries -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+         crossorigin="anonymous"
+      ></script>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+         crossorigin="anonymous"
+      ></script>
+      <link rel="stylesheet" href="form.css" />
+   </head>
+
+   <body>
+      <div class="container w-50 bg-light p-5">
+         <form action="index.html">
+            <div class="mb-3">
+               <label for="exampleInputEmail1" class="form-label"
+                  >Full Name</label
+               >
+               <input type="text" class="form-control" id="fullName" required />
+            </div>
+            <div class="mb-3">
+               <label class="form-label">Role</label>
+               <input type="text" class="form-control" id="role" required />
+            </div>
+            <div class="mb-3">
+               <label for="exampleInputPassword1" class="form-label"
+                  >About</label
+               >
+               <textarea class="form-control" id="about" required></textarea>
+            </div>
+            <div class="mb-3">
+               <label class="form-label">Mobile NO</label>
+               <input type="text" class="form-control" id="mobile" required />
+            </div>
+            <div class="mb-3">
+               <label class="form-label">Location</label>
+               <input type="text" class="form-control" id="place" required />
+            </div>
+            <div class="mb-3">
+               <label class="form-label">email</label>
+               <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+               <label class="form-label">Linkden Account</label>
+               <input type="text" class="form-control" id="linkden" />
+            </div>
+            <div class="mb-3">
+               <label class="form-label">Github Account</label>
+               <input type="text" class="form-control" id="github" />
+            </div>
+            <div class="mb-1">
+               <label
+                  for="exampleInputPassword1"
+                  class="form-label fw-bold fs-4"
+                  >Education</label
+               >
+               <div id="educationSection">
+                  <div>
+                     <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"
+                           >college name</label
+                        >
+                        <input type="text" class="form-control" />
+                     </div>
+                     <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"
+                           >Location</label
+                        >
+                        <input type="text" class="form-control" />
+                     </div>
+                     <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"
+                           >Degree</label
+                        >
+                        <input type="text" class="form-control" />
+                     </div>
+                     <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"
+                           >Description</label
+                        >
+                        <input type="text" class="form-control" />
+                     </div>
+                  </div>
+               </div>
+               <!-- <button class="btn btn-primary" onclick="addCode()">Add</button> -->
+            </div>
+
+            <button type="submit" class="btn btn-primary" onclick="onSubmit()">
+               Submit
+            </button>
+         </form>
+      </div>
+      <script src="./form.js"></script>
+   </body>
+</html>
